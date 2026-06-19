@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a2f">
+  <meta name="description" content="Discovery Health Medical Scheme Member Moments 2026 Content Creator Strategy">
+  <title>Member Moments 2026 | DHMS Content Creator Strategy</title>
+  <style>
+    :root {
+      --navy: #06182b;
+      --navy-2: #0b2440;
+      --blue: #0067b9;
+      --sky: #31a8ff;
+      --cyan: #78d9ff;
+      --ice: #eaf7ff;
+      --paper: #f7fbfd;
+      --white: #ffffff;
+      --ink: #0c1d2c;
+      --muted: #617386;
+      --line: rgba(12, 50, 82, .14);
+      --lime: #c8ff65;
+      --coral: #ff705f;
+      --gold: #ffd166;
+      --shadow: 0 30px 80px rgba(3, 25, 46, .13);
+      --radius: 28px;
+      --display: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      --body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--body);
+      font-size: 16px;
+      line-height: 1.55;
+      overflow-x: hidden;
+    }
+
+    ::selection { color: var(--navy); background: var(--lime); }
+    img { display: block; width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+
+    .progress {
+      position: fixed;
+      inset: 0 auto auto 0;
+      z-index: 100;
+      width: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--cyan), var(--lime));
+      box-shadow: 0 0 18px rgba(120, 217, 255, .8);
+    }
+
+    .nav {
+      position: fixed;
+      z-index: 90;
+      top: 18px;
+      left: 50%;
+      width: min(1160px, calc(100% - 30px));
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 12px 14px 12px 20px;
+      color: white;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 999px;
+      background: rgba(4, 23, 41, .72);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 14px 45px rgba(0,0,0,.16);
+    }
+
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-logo {
+      width: 156px;
+      height: 46px;
+      flex: 0 0 auto;
+      object-fit: contain;
+      padding: 5px 9px;
+      border-radius: 10px;
+      background: white;
+    }
+
+    .brand-text {
+      padding-left: 12px;
+      border-left: 1px solid rgba(255,255,255,.22);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      line-height: 1.25;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .06em;
+    }
+
+    .nav-links a { opacity: .72; transition: opacity .2s ease; }
+    .nav-links a:hover { opacity: 1; }
+
+    .nav-cta, .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 0 20px;
+      border: 0;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+    }
+
+    .nav-cta {
+      color: var(--navy);
+      background: var(--lime);
+    }
+
+    .nav-cta:hover, .button:hover { transform: translateY(-2px); }
+    .button-primary { color: var(--navy); background: var(--lime); box-shadow: 0 14px 36px rgba(200,255,101,.22); }
+    .button-ghost { color: white; border: 1px solid rgba(255,255,255,.24); background: rgba(255,255,255,.06); }
+
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: grid;
+      align-items: end;
+      color: white;
+      background: var(--navy);
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(3,19,34,.97) 0%, rgba(3,19,34,.87) 43%, rgba(3,19,34,.28) 74%, rgba(3,19,34,.65) 100%),
+        linear-gradient(0deg, rgba(3,19,34,.94), transparent 54%),
+        url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2200&q=88") center 35% / cover;
+      transform: scale(1.025);
+      animation: heroIn 1.8s cubic-bezier(.2,.8,.2,1) both;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(255,255,255,.19) .7px, transparent .7px);
+      background-size: 8px 8px;
+      opacity: .09;
+      mix-blend-mode: screen;
+    }
+
+    @keyframes heroIn {
+      from { opacity: .4; transform: scale(1.09); }
+      to { opacity: 1; transform: scale(1.025); }
+    }
+
+    .hero-orbit {
+      position: absolute;
+      z-index: 1;
+      top: -15vw;
+      right: -8vw;
+      width: 54vw;
+      aspect-ratio: 1;
+      border: 1px solid rgba(120,217,255,.25);
+      border-radius: 50%;
+      box-shadow: inset 0 0 90px rgba(49,168,255,.08);
+      animation: spin 40s linear infinite;
+    }
+
+    .hero-orbit::before, .hero-orbit::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 50%;
+    }
+
+    .hero-orbit::before { inset: 16%; }
+    .hero-orbit::after { inset: 35%; background: rgba(49,168,255,.06); }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: min(1280px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: 160px 0 64px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    .eyebrow.cyan { color: var(--cyan); }
+    .eyebrow.blue { color: var(--blue); }
+
+    .hero h1 {
+      max-width: 970px;
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(76px, 13vw, 194px);
+      font-weight: 900;
+      letter-spacing: -.075em;
+      line-height: .77;
+      text-transform: uppercase;
+    }
+
+    .hero h1 span {
+      display: block;
+      margin-left: .35em;
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(255,255,255,.76);
+    }
+
+    .hero-bottom {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 400px);
+      align-items: end;
+      gap: 64px;
+      margin-top: 56px;
+    }
+
+    .hero-statement {
+      max-width: 620px;
+      margin: 0;
+      font-size: clamp(21px, 2.2vw, 31px);
+      font-weight: 400;
+      letter-spacing: -.025em;
+      line-height: 1.25;
+    }
+
+    .hero-statement strong { color: var(--lime); font-weight: 700; }
+    .hero-meta {
+      padding: 24px 0 0 28px;
+      border-left: 1px solid rgba(255,255,255,.25);
+    }
+
+    .hero-meta p {
+      margin: 0 0 8px;
+      color: rgba(255,255,255,.66);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .hero-meta strong { display: block; font-size: 17px; font-weight: 500; }
+
+    .section {
+      position: relative;
+      padding: 120px 0;
+    }
+
+    .container { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
+    .container-wide { width: min(1380px, calc(100% - 48px)); margin: 0 auto; }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: .68fr 1.32fr;
+      gap: 60px;
+      align-items: start;
+      margin-bottom: 70px;
+    }
+
+    .section-number {
+      color: var(--blue);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(48px, 7vw, 94px);
+      font-weight: 850;
+      letter-spacing: -.06em;
+      line-height: .94;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: clamp(25px, 3vw, 38px);
+      letter-spacing: -.04em;
+      line-height: 1.05;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: clamp(19px, 2vw, 25px);
+      letter-spacing: -.02em;
+      line-height: 1.45;
+    }
+
+    .intro {
+      background:
+        radial-gradient(circle at 86% 12%, rgba(49,168,255,.14), transparent 25%),
+        var(--white);
+    }
+
+    .manifesto {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 24px;
+    }
+
+    .manifesto-main {
+      min-height: 590px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: clamp(32px, 5vw, 72px);
+      color: white;
+      border-radius: var(--radius);
+      background: var(--blue);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .manifesto-main blockquote {
+      max-width: 850px;
+      margin: 0;
+      font-family: var(--display);
+      font-size: clamp(43px, 6vw, 84px);
+      font-weight: 850;
+      letter-spacing: -.055em;
+      line-height: .98;
+      text-transform: uppercase;
+    }
+
+    .manifesto-main blockquote em { color: var(--lime); font-style: normal; }
+    .manifesto-foot {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,.25);
+    }
+
+    .manifesto-foot p { max-width: 460px; margin: 0; color: rgba(255,255,255,.78); }
+    .manifesto-side { display: grid; gap: 24px; }
+
+    .mini-card {
+      position: relative;
+      min-height: 283px;
+      padding: 34px;
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .mini-card.dark { color: white; background: var(--navy); }
+    .mini-card.lime { background: var(--lime); }
+    .mini-card .index { font-size: 11px; font-weight: 800; letter-spacing: .16em; }
+    .mini-card h3 { margin-top: 74px; max-width: 400px; }
+    .mini-card p { max-width: 440px; margin: 16px 0 0; opacity: .72; }
+
+    .moment-truths {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin: 24px 0;
+    }
+
+    .moment-truth {
+      min-height: 170px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,.86);
+      box-shadow: 0 10px 35px rgba(7,25,43,.06);
+    }
+
+    .moment-truth small {
+      display: block;
+      margin-bottom: 34px;
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .moment-truth strong {
+      display: block;
+      color: var(--navy);
+      font-size: 20px;
+      font-weight: 560;
+      letter-spacing: -.02em;
+      line-height: 1.12;
+    }
+
+    .comments-band {
+      position: relative;
+      padding: 44px 0;
+      color: var(--ink);
+      background: #eef2f5;
+      overflow: hidden;
+    }
+
+    .comments-band::before, .comments-band::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      bottom: 0;
+      width: min(10vw, 130px);
+      pointer-events: none;
+    }
+
+    .comments-band::before { left: 0; background: linear-gradient(90deg, #eef2f5, transparent); }
+    .comments-band::after { right: 0; background: linear-gradient(-90deg, #eef2f5, transparent); }
+
+    .marquee { display: flex; width: max-content; animation: marquee 34s linear infinite; }
+    .marquee:hover { animation-play-state: paused; }
+    .marquee-group { display: flex; align-items: stretch; gap: 16px; padding-right: 16px; }
+    @keyframes marquee { to { transform: translateX(-50%); } }
+
+    .comment-pill {
+      width: 320px;
+      min-height: 154px;
+      padding: 18px;
+      white-space: normal;
+      border: 1px solid rgba(12,50,82,.1);
+      border-radius: 16px;
+      background: white;
+      box-shadow: 0 10px 30px rgba(7,25,43,.08);
+    }
+
+    .avatar {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 40px;
+      height: 40px;
+      color: white;
+      border-radius: 50%;
+      background: linear-gradient(145deg, var(--blue), var(--navy));
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .comment-head { display: flex; align-items: center; gap: 11px; }
+    .comment-user { min-width: 0; }
+    .comment-user strong { display: block; font-size: 13px; line-height: 1.2; }
+    .comment-user span { display: block; margin-top: 2px; color: #7b8995; font-size: 11px; }
+    .comment-time { margin-left: auto; color: #9aa5ae; font-size: 10px; }
+    .comment-copy { margin: 16px 0 14px; color: #243746; font-size: 14px; line-height: 1.45; }
+    .comment-actions { display: flex; gap: 18px; color: #7b8995; font-size: 10px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+    .comment-actions span:first-child { color: var(--blue); }
+
+    .diagnosis { background: var(--ice); }
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    .insight-card {
+      min-height: 340px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: white;
+      transition: transform .35s ease, box-shadow .35s ease;
+    }
+
+    .insight-card:hover { transform: translateY(-8px); box-shadow: var(--shadow); }
+    .insight-card:nth-child(1) { grid-column: span 5; }
+    .insight-card:nth-child(2) { grid-column: span 7; color: white; background: var(--blue); }
+    .insight-card:nth-child(3) { grid-column: span 7; color: white; background: var(--navy); }
+    .insight-card:nth-child(4) { grid-column: span 5; background: var(--lime); }
+    .insight-card .label { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .insight-card h3 { max-width: 620px; margin-top: 70px; }
+    .insight-card p { margin: 18px 0 0; opacity: .72; }
+
+    .positioning {
+      padding: 150px 0;
+      color: white;
+      background:
+        radial-gradient(circle at 12% 88%, rgba(49,168,255,.24), transparent 28%),
+        var(--navy);
+    }
+
+    .shift {
+      display: grid;
+      grid-template-columns: 1fr 100px 1fr;
+      gap: 34px;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    .shift-card {
+      min-height: 330px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 42px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 26px;
+      background: rgba(255,255,255,.05);
+    }
+
+    .shift-card.after { color: var(--navy); border: 0; background: var(--lime); }
+    .shift-card span { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; opacity: .6; }
+    .shift-card span.nowrap { white-space: nowrap; }
+    .shift-card strong { font-size: clamp(30px, 4vw, 50px); line-height: 1.08; letter-spacing: -.04em; }
+    .shift-arrow { display: grid; place-items: center; width: 100px; height: 100px; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; font-size: 38px; }
+
+    .creator-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .creator-card {
+      position: relative;
+      min-height: 460px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 25px;
+      color: white;
+      border-radius: 24px;
+      background: var(--navy);
+      overflow: hidden;
+      isolation: isolate;
+      transition: flex .35s ease, transform .35s ease;
+    }
+
+    .creator-card::before {
+      content: "";
+      position: absolute;
+      z-index: -2;
+      inset: 0;
+      background: var(--image) center / cover;
+      transition: transform .55s ease;
+    }
+
+    .creator-card::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      background: linear-gradient(0deg, rgba(3,19,34,.96), rgba(3,19,34,.06) 72%);
+    }
+
+    .creator-card:hover { transform: translateY(-6px); }
+    .creator-card:hover::before { transform: scale(1.06); }
+    .creator-card small { color: var(--lime); font-weight: 900; letter-spacing: .15em; }
+    .creator-card h3 { margin-top: 10px; font-size: 27px; }
+    .creator-card p { margin: 14px 0 0; color: rgba(255,255,255,.7); font-size: 14px; }
+
+    .creator-profile {
+      display: grid;
+      gap: 8px;
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,.22);
+      color: rgba(255,255,255,.82);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .creator-profile strong { color: white; font-weight: 800; }
+    .creator-profile a { color: #e5c697; font-weight: 800; text-decoration: none; }
+    .creator-profile a:hover { text-decoration: underline; }
+
+    .mix-bar {
+      display: grid;
+      grid-template-columns: 7fr 2fr 1fr;
+      min-height: 160px;
+      margin-top: 54px;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .mix-part {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 28px;
+      color: white;
+      background: var(--blue);
+    }
+
+    .mix-part:nth-child(2) { background: var(--navy-2); }
+    .mix-part:nth-child(3) { color: var(--navy); background: var(--lime); }
+    .mix-part strong { font-family: var(--display); font-size: clamp(46px, 6vw, 72px); line-height: 1; letter-spacing: -.05em; }
+    .mix-part span { font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+
+    .platforms { background: white; }
+    .platform-grid { display: grid; grid-template-columns: 1.25fr .75fr .75fr; gap: 18px; }
+    .platform-card {
+      min-height: 430px;
+      padding: 38px;
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      background: var(--paper);
+    }
+
+    .platform-card.primary { color: white; border: 0; background: var(--navy); }
+    .platform-card:last-child { color: var(--navy); border: 0; background: var(--lime); }
+    .platform-icon {
+      display: grid;
+      place-items: center;
+      width: 58px;
+      height: 58px;
+      margin-bottom: 70px;
+      border: 1px solid currentColor;
+      border-radius: 18px;
+      font-weight: 900;
+    }
+
+    .platform-icon svg {
+      width: 30px;
+      height: 30px;
+      display: block;
+    }
+
+    .platform-card h3 { margin-bottom: 18px; }
+    .platform-card p { opacity: .7; }
+    .platform-card ul { margin: 24px 0 0; padding-left: 18px; }
+
+    .territories {
+      color: white;
+      background: var(--navy);
+    }
+
+    .territory-list { border-top: 1px solid rgba(255,255,255,.14); }
+    .territory {
+      display: grid;
+      grid-template-columns: 80px 1fr auto;
+      gap: 28px;
+      align-items: center;
+      padding: 34px 10px;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+      cursor: default;
+      transition: padding .3s ease, background .3s ease;
+    }
+
+    .territory:hover { padding-left: 24px; padding-right: 24px; background: rgba(255,255,255,.045); }
+    .territory .num { color: var(--cyan); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+    .territory h3 { font-size: clamp(26px, 4vw, 47px); text-transform: uppercase; }
+    .territory p { max-width: 430px; margin: 0; color: rgba(255,255,255,.58); text-align: right; }
+
+    .mashup {
+      background:
+        linear-gradient(135deg, rgba(200,255,101,.92), rgba(120,217,255,.94)),
+        url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=80") center / cover;
+    }
+
+    .phone-flow {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .phone {
+      width: min(340px, 100%);
+      margin: 0 auto;
+      padding: 14px;
+      border: 2px solid rgba(6,24,43,.25);
+      border-radius: 48px;
+      background: var(--navy);
+      box-shadow: 0 50px 80px rgba(6,24,43,.25);
+      transform: rotate(-4deg);
+    }
+
+    .phone-screen {
+      min-height: 630px;
+      padding: 58px 20px 24px;
+      border-radius: 36px;
+      background: #eef4f5;
+      overflow: hidden;
+    }
+
+    .chat-date { margin-bottom: 30px; color: #7b898f; font-size: 11px; text-align: center; text-transform: uppercase; }
+    .bubble {
+      width: fit-content;
+      max-width: 88%;
+      margin: 11px 0;
+      padding: 13px 15px;
+      border-radius: 17px 17px 17px 4px;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,.06);
+      font-size: 14px;
+    }
+
+    .bubble.me { margin-left: auto; border-radius: 17px 17px 4px 17px; background: #d8ffc6; }
+    .voice { display: flex; align-items: center; gap: 10px; min-width: 220px; }
+    .play { display: grid; place-items: center; width: 29px; height: 29px; color: white; border-radius: 50%; background: var(--blue); font-size: 10px; }
+    .wave { flex: 1; height: 20px; opacity: .42; background: repeating-linear-gradient(90deg, var(--blue) 0 2px, transparent 2px 5px); }
+
+    .flow-steps { display: grid; gap: 14px; margin-top: 42px; }
+    .flow-step {
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 20px;
+      align-items: center;
+      padding: 21px;
+      border: 1px solid rgba(6,24,43,.16);
+      border-radius: 18px;
+      background: rgba(255,255,255,.42);
+      backdrop-filter: blur(10px);
+    }
+
+    .flow-step strong { display: grid; place-items: center; width: 52px; height: 52px; color: white; border-radius: 50%; background: var(--navy); }
+    .flow-step h4 { margin: 0 0 4px; font-size: 17px; }
+    .flow-step p { margin: 0; opacity: .68; }
+
+    .reach { background: var(--ice); }
+    .reach-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .reach-card { padding: 38px; border-radius: 24px; background: white; box-shadow: 0 15px 50px rgba(3,25,46,.08); }
+    .reach-card:nth-child(2) { color: white; background: var(--blue); }
+    .reach-card .type { font-size: 11px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
+    .reach-card .big { display: block; margin: 64px 0 5px; font-family: var(--display); font-size: clamp(54px, 7vw, 86px); font-weight: 900; letter-spacing: -.065em; line-height: .9; }
+    .reach-card p { margin: 20px 0 0; opacity: .7; }
+    .total-reach {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-top: 20px;
+      padding: 48px;
+      color: white;
+      border-radius: 24px;
+      background: var(--navy);
+    }
+
+    .total-reach strong { font-family: var(--display); font-size: clamp(72px, 10vw, 140px); letter-spacing: -.07em; line-height: .75; }
+    .total-reach p { max-width: 430px; margin: 0; color: rgba(255,255,255,.62); font-size: 18px; }
+
+    .timeline { background: white; }
+    .timeline-track {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 65px;
+    }
+
+    .timeline-track::before {
+      content: "";
+      position: absolute;
+      top: 27px;
+      left: 6%;
+      right: 6%;
+      height: 2px;
+      background: var(--line);
+    }
+
+    .phase { position: relative; padding-top: 76px; }
+    .phase::before {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 18px;
+      left: 0;
+      width: 18px;
+      height: 18px;
+      border: 7px solid white;
+      border-radius: 50%;
+      background: var(--blue);
+      box-shadow: 0 0 0 1px var(--line);
+    }
+
+    .phase:last-child::before { background: var(--lime); }
+    .phase-card { min-height: 320px; padding: 28px; border: 1px solid var(--line); border-radius: 22px; background: var(--paper); }
+    .phase-card .week { color: var(--blue); font-size: 11px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
+    .phase-card h3 { margin: 58px 0 18px; font-size: 27px; text-transform: uppercase; }
+    .phase-card p { color: var(--muted); }
+
+    .investment {
+      color: white;
+      background:
+        radial-gradient(circle at 90% 0, rgba(49,168,255,.28), transparent 31%),
+        var(--navy);
+    }
+
+    .tier-tabs { display: flex; gap: 10px; margin: 52px 0 28px; }
+    .tier-tab {
+      padding: 13px 20px;
+      color: rgba(255,255,255,.65);
+      border: 1px solid rgba(255,255,255,.17);
+      border-radius: 999px;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .tier-tab.active { color: var(--navy); border-color: var(--lime); background: var(--lime); }
+    .tier-panels { position: relative; }
+    .tier-panel {
+      display: none;
+      grid-template-columns: .72fr 1.28fr;
+      min-height: 620px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 30px;
+      background: rgba(255,255,255,.055);
+      overflow: hidden;
+    }
+
+    .tier-panel.active { display: grid; animation: panelIn .4s ease both; }
+    @keyframes panelIn { from { opacity: 0; transform: translateY(8px); } }
+    .tier-price {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 48px;
+      color: var(--navy);
+      background: var(--lime);
+    }
+
+    .tier-price small { font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
+    .tier-price strong { font-family: var(--display); font-size: clamp(70px, 9vw, 118px); letter-spacing: -.07em; line-height: .78; }
+    .tier-price strong span { display: block; margin-top: 18px; font-family: var(--body); font-size: 14px; letter-spacing: .08em; line-height: 1; text-transform: uppercase; }
+    .tier-price strong span em { display: block; margin-top: 8px; font-size: 10px; font-style: normal; opacity: .65; }
+    .tier-details { padding: 48px; }
+    .tier-details h3 { font-size: clamp(38px, 5vw, 62px); text-transform: uppercase; }
+    .tier-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 36px 0; }
+    .tier-stats.three { grid-template-columns: repeat(3, 1fr); }
+    .tier-stat { padding: 22px; border: 1px solid rgba(255,255,255,.13); border-radius: 17px; }
+    .tier-stat small { display: block; margin-bottom: 8px; color: var(--cyan); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .tier-stat strong { font-size: 23px; }
+    .tier-columns { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
+    .tier-columns h4 { margin: 0 0 12px; color: var(--cyan); font-size: 11px; letter-spacing: .13em; text-transform: uppercase; }
+    .tier-columns ul { margin: 0; padding-left: 18px; color: rgba(255,255,255,.7); }
+
+    .recommendation {
+      display: grid;
+      grid-template-columns: .7fr 1.3fr;
+      gap: 60px;
+      margin-top: 34px;
+      padding: 46px;
+      color: var(--navy);
+      border-radius: 25px;
+      background: white;
+    }
+
+    .recommendation .stamp {
+      display: grid;
+      place-items: center;
+      width: 140px;
+      height: 140px;
+      border: 2px solid var(--blue);
+      border-radius: 50%;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-align: center;
+      text-transform: uppercase;
+      transform: rotate(-8deg);
+    }
+
+    .recommendation h3 { margin-bottom: 14px; }
+    .recommendation p { margin: 0; color: var(--muted); font-size: 19px; }
+
+    .kpis { background: var(--white); }
+    .measurement-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 54px;
+    }
+
+    .measurement-card {
+      min-height: 310px;
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--paper);
+    }
+
+    .measurement-card.primary { color: white; border: 0; background: var(--navy); }
+    .measurement-card.accent { color: var(--navy); border: 0; background: linear-gradient(145deg, #e5c99f, #b98951); }
+    .measurement-card small { display: block; color: var(--gold); font-size: 10px; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
+    .measurement-card.accent small { color: rgba(7,25,43,.62); }
+    .measurement-card h3 { margin: 48px 0 14px; font-size: clamp(28px, 3vw, 42px); line-height: 1; }
+    .measurement-card p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.55; }
+    .measurement-card.primary p { color: rgba(255,255,255,.68); }
+    .measurement-card.accent p { color: rgba(7,25,43,.72); }
+
+    .engagement-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 22px;
+    }
+
+    .engagement-list span {
+      padding: 8px 11px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 999px;
+      color: rgba(255,255,255,.82);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .report-deliverable {
+      display: grid;
+      grid-template-columns: .65fr 1.35fr;
+      gap: 48px;
+      align-items: center;
+      margin-top: 18px;
+      padding: 42px;
+      border: 1px solid rgba(197,154,98,.36);
+      border-radius: 14px;
+      background: rgba(255,255,255,.82);
+    }
+
+    .report-deliverable h3 { margin: 12px 0 0; font-size: clamp(30px, 3.6vw, 48px); line-height: 1; }
+    .report-deliverable p { margin: 0; color: var(--muted); font-size: 18px; line-height: 1.6; }
+
+    .agency {
+      background:
+        linear-gradient(90deg, rgba(6,24,43,.95), rgba(6,24,43,.72)),
+        url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000&q=88") center / cover;
+      color: white;
+    }
+
+    .agency-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 100px; align-items: end; }
+    .agency-copy h2 { max-width: 780px; }
+    .agency-copy p { max-width: 640px; color: rgba(255,255,255,.68); font-size: 20px; }
+    .capabilities { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .capability { min-height: 150px; padding: 24px; border: 1px solid rgba(255,255,255,.17); border-radius: 20px; background: rgba(255,255,255,.06); backdrop-filter: blur(10px); }
+    .capability small { color: var(--cyan); font-weight: 900; letter-spacing: .12em; }
+    .capability strong { display: block; margin-top: 38px; font-size: 18px; }
+
+    .agency-intro {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 70px;
+      align-items: center;
+      margin-bottom: 72px;
+    }
+
+    .agency-logo-wrap {
+      display: grid;
+      place-items: center;
+      aspect-ratio: 1;
+      padding: 18px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 18px;
+      background: #000;
+      box-shadow: 0 24px 70px rgba(0,0,0,.3);
+    }
+
+    .agency-logo { display: block; width: 100%; height: auto; }
+    .agency-intro h2 { max-width: 920px; margin-top: 18px; }
+    .agency-intro .lead { max-width: 860px; color: rgba(255,255,255,.7); }
+
+    .agency-proof-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .agency-proof {
+      min-height: 270px;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 14px;
+      background: rgba(255,255,255,.055);
+      backdrop-filter: blur(12px);
+    }
+
+    .agency-proof.featured {
+      color: var(--navy);
+      border: 0;
+      background: linear-gradient(145deg, #e5c99f, #b98951);
+    }
+
+    .agency-proof small {
+      display: block;
+      color: #e5c697;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+
+    .agency-proof.featured small { color: rgba(7,25,43,.65); }
+    .agency-proof h3 { margin: 44px 0 14px; font-size: clamp(23px, 2.2vw, 31px); line-height: 1.05; }
+    .agency-proof p { margin: 0; color: rgba(255,255,255,.62); font-size: 15px; line-height: 1.55; }
+    .agency-proof.featured p { color: rgba(7,25,43,.72); }
+
+    .agency-advantage {
+      display: grid;
+      grid-template-columns: .7fr 1.3fr;
+      gap: 54px;
+      align-items: center;
+      margin-top: 18px;
+      padding: 42px;
+      border-radius: 14px;
+      background: rgba(9,87,151,.58);
+    }
+
+    .agency-advantage .section-number { color: #e5c697; }
+    .agency-advantage h3 { margin: 14px 0 0; font-size: clamp(29px, 3.5vw, 48px); line-height: 1; }
+    .agency-advantage p { margin: 0; color: rgba(255,255,255,.76); font-size: 18px; line-height: 1.6; }
+
+    .finale {
+      min-height: 90vh;
+      display: grid;
+      place-items: center;
+      padding: 100px 24px;
+      color: white;
+      text-align: center;
+      background: var(--blue);
+      overflow: hidden;
+    }
+
+    .finale-inner { position: relative; z-index: 1; max-width: 1100px; }
+    .finale h2 { font-size: clamp(68px, 11vw, 158px); line-height: .82; }
+    .finale h2 em { display: block; color: var(--lime); font-style: normal; }
+    .finale h2 span { display: block; }
+    .finale h2 .beige {
+      color: #e0bf91;
+      white-space: nowrap;
+    }
+    .finale p { max-width: 670px; margin: 36px auto; color: rgba(255,255,255,.78); font-size: 20px; }
+    .finale-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .footer-note { margin-top: 72px; color: rgba(255,255,255,.48); font-size: 11px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .75s ease, transform .75s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 980px) {
+      .nav-links { display: none; }
+      .section { padding: 90px 0; }
+      .section-head, .manifesto, .phone-flow, .agency-grid { grid-template-columns: 1fr; }
+      .hero-bottom { grid-template-columns: 1fr; gap: 30px; }
+      .hero-meta { max-width: 420px; }
+      .manifesto-main { min-height: 500px; }
+      .moment-truths { grid-template-columns: repeat(2, 1fr); }
+      .creator-grid { grid-template-columns: repeat(2, 1fr); }
+      .platform-grid { grid-template-columns: 1fr 1fr; }
+      .platform-card.primary { grid-column: span 2; }
+      .timeline-track { grid-template-columns: repeat(2, 1fr); }
+      .timeline-track::before { display: none; }
+      .tier-panel, .recommendation { grid-template-columns: 1fr; }
+      .tier-price { min-height: 330px; }
+      .agency-grid { gap: 54px; }
+      .agency-intro { grid-template-columns: 160px minmax(0, 1fr); gap: 40px; }
+      .agency-proof-grid { grid-template-columns: repeat(2, 1fr); }
+      .agency-advantage { grid-template-columns: 1fr; gap: 24px; }
+    }
+
+    @media (max-width: 700px) {
+      .container, .container-wide, .hero-content { width: min(100% - 30px, 1180px); }
+      .nav { top: 10px; }
+      .nav-cta { display: none; }
+      .brand-logo { width: 125px; height: 40px; }
+      .brand-text { font-size: 9px; letter-spacing: .1em; }
+      .hero h1 { font-size: clamp(64px, 24vw, 112px); }
+      .hero h1 span { margin-left: 0; }
+      .hero-content { padding-bottom: 38px; }
+      .section-head { gap: 20px; margin-bottom: 44px; }
+      .manifesto-main { min-height: 470px; padding: 30px; }
+      .manifesto-foot { display: block; }
+      .mini-card { min-height: 250px; }
+      .insight-card:nth-child(n) { grid-column: span 12; }
+      .shift { grid-template-columns: 1fr; }
+      .shift-arrow { transform: rotate(90deg); }
+      .creator-grid { grid-template-columns: 1fr; }
+      .creator-card, .creator-card:last-child { grid-column: auto; min-height: 400px; }
+      .mix-bar { grid-template-columns: 1fr; }
+      .mix-part { min-height: 145px; }
+      .platform-grid { grid-template-columns: 1fr; }
+      .platform-card.primary { grid-column: auto; }
+      .territory { grid-template-columns: 44px 1fr; gap: 12px; }
+      .territory p { grid-column: 2; text-align: left; }
+      .reach-grid, .timeline-track, .tier-stats, .tier-stats.three, .tier-columns { grid-template-columns: 1fr; }
+      .total-reach { display: block; padding: 34px; }
+      .total-reach p { margin-top: 28px; }
+      .tier-tabs { overflow-x: auto; padding-bottom: 7px; }
+      .tier-tab { white-space: nowrap; }
+      .tier-details, .tier-price { padding: 32px; }
+      .recommendation { padding: 30px; }
+      .capabilities { grid-template-columns: 1fr; }
+      .agency-intro { grid-template-columns: 1fr; gap: 28px; }
+      .agency-logo-wrap { width: 150px; }
+      .agency-proof-grid { grid-template-columns: 1fr; }
+      .agency-proof { min-height: 230px; }
+      .agency-advantage { padding: 30px; }
+      .measurement-grid { grid-template-columns: 1fr; }
+      .measurement-card { min-height: 260px; padding: 28px; }
+      .report-deliverable { grid-template-columns: 1fr; gap: 24px; padding: 30px; }
+      .finale { min-height: 80vh; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+
+    @media print {
+      .nav, .progress, .comments-band, .finale-actions { display: none !important; }
+      body { background: white; color: #122435; }
+      .hero { min-height: 100vh; break-after: page; }
+      .section { padding: 64px 0; break-inside: avoid; }
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .creator-card, .agency { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .tier-panel { display: grid !important; margin-bottom: 24px; break-inside: avoid; }
+      .tier-tabs { display: none; }
+      a { text-decoration: none; }
+    }
+
+    /* Executive proposal refinement */
+    :root {
+      --navy: #07192b;
+      --navy-2: #102b45;
+      --blue: #095797;
+      --sky: #5ca8d7;
+      --cyan: #b6d9eb;
+      --ice: #edf3f6;
+      --paper: #f5f3ee;
+      --ink: #122435;
+      --muted: #66737d;
+      --line: rgba(18, 36, 53, .13);
+      --lime: #c59a62;
+      --gold: #c59a62;
+      --shadow: 0 24px 70px rgba(7, 25, 43, .11);
+      --radius: 18px;
+      --display: "Aptos Display", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      --body: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    body {
+      background:
+        linear-gradient(rgba(7,25,43,.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(7,25,43,.018) 1px, transparent 1px),
+        var(--paper);
+      background-size: 48px 48px;
+      font-size: 15.5px;
+    }
+
+    .progress {
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), #f0d6ad);
+      box-shadow: none;
+    }
+
+    .nav {
+      top: 14px;
+      width: min(1220px, calc(100% - 30px));
+      padding: 9px 10px 9px 14px;
+      color: var(--ink);
+      border-color: rgba(255,255,255,.78);
+      border-radius: 15px;
+      background: rgba(255,255,255,.92);
+      box-shadow: 0 12px 34px rgba(5,22,38,.13);
+    }
+
+    .brand-logo {
+      width: 165px;
+      height: 42px;
+      padding: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+
+    .brand-text {
+      color: var(--blue);
+      border-left-color: rgba(9,87,151,.22);
+      font-size: 9px;
+      letter-spacing: .16em;
+    }
+
+    .nav-links { color: var(--ink); font-size: 11px; letter-spacing: .08em; }
+    .nav-links a { opacity: .62; }
+    .nav-links a:hover { color: var(--blue); opacity: 1; }
+
+    .nav-cta {
+      min-height: 42px;
+      color: white;
+      border-radius: 10px;
+      background: var(--blue);
+    }
+
+    .button { min-height: 48px; padding-inline: 24px; border-radius: 9px; }
+    .button-primary { color: white; background: var(--navy); box-shadow: 0 13px 30px rgba(7,25,43,.2); }
+
+    .hero::before {
+      background:
+        linear-gradient(90deg, rgba(4,20,35,.98) 0%, rgba(4,20,35,.9) 47%, rgba(4,20,35,.33) 78%, rgba(4,20,35,.72) 100%),
+        linear-gradient(0deg, rgba(4,20,35,.96), transparent 58%),
+        url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2200&q=88") center 35% / cover;
+    }
+
+    .hero::after {
+      background:
+        linear-gradient(90deg, transparent 49.9%, rgba(255,255,255,.055) 50%, transparent 50.1%),
+        radial-gradient(rgba(255,255,255,.15) .6px, transparent .6px);
+      background-size: 100% 100%, 10px 10px;
+      opacity: .16;
+    }
+
+    .hero-orbit {
+      border-color: rgba(197,154,98,.28);
+      box-shadow: inset 0 0 90px rgba(197,154,98,.05);
+      animation-duration: 75s;
+    }
+
+    .hero-content { padding-bottom: 48px; }
+    .hero h1 {
+      max-width: 1040px;
+      font-size: clamp(72px, 12vw, 176px);
+      font-weight: 650;
+      letter-spacing: -.07em;
+      line-height: .82;
+    }
+
+    .hero h1 span {
+      color: rgba(255,255,255,.96);
+      -webkit-text-stroke: 0;
+      font-weight: 300;
+    }
+
+    .eyebrow {
+      font-size: 10px;
+      letter-spacing: .22em;
+    }
+
+    .eyebrow::before { width: 42px; height: 1px; }
+    .eyebrow.cyan, .section-number { color: var(--gold); }
+    .hero-statement { max-width: 680px; font-size: clamp(19px, 2vw, 28px); font-weight: 300; }
+    .hero-statement strong { color: #e6c89e; font-weight: 500; }
+
+    .proposal-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 26px;
+      margin-top: 34px;
+      padding-top: 19px;
+      border-top: 1px solid rgba(255,255,255,.18);
+      color: rgba(255,255,255,.58);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+
+    .proposal-meta span + span::before {
+      content: "";
+      display: inline-block;
+      width: 3px;
+      height: 3px;
+      margin: 0 13px 2px 0;
+      border-radius: 50%;
+      background: var(--gold);
+    }
+
+    .section { padding: 130px 0; }
+    .section-head { margin-bottom: 62px; }
+    h2 { font-size: clamp(45px, 6.3vw, 84px); font-weight: 600; letter-spacing: -.055em; }
+    h3 { font-weight: 560; }
+    .lead { color: #65727c; font-size: clamp(18px, 1.8vw, 23px); font-weight: 350; }
+
+    .manifesto-main {
+      min-height: 560px;
+      border-radius: var(--radius);
+      background:
+        linear-gradient(145deg, rgba(9,87,151,.93), rgba(7,25,43,.98)),
+        var(--blue);
+    }
+
+    .manifesto-main blockquote { font-size: clamp(40px, 5.4vw, 72px); font-weight: 580; text-transform: none; }
+    .manifesto-main blockquote em { color: #e4c596; }
+    .mini-card, .insight-card, .platform-card, .reach-card, .phase-card { border-radius: var(--radius); }
+    .mini-card.lime, .insight-card:nth-child(4), .mix-part:nth-child(3), .tier-price {
+      background: linear-gradient(145deg, #d8b889, #b88850);
+    }
+
+    .at-glance {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 24px 0 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.8);
+      box-shadow: 0 16px 45px rgba(7,25,43,.07);
+      overflow: hidden;
+    }
+
+    .glance-item {
+      min-height: 142px;
+      padding: 25px;
+      border-right: 1px solid var(--line);
+    }
+
+    .glance-item:last-child { border-right: 0; }
+    .glance-item small {
+      display: block;
+      margin-bottom: 28px;
+      color: var(--muted);
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+
+    .glance-item strong { display: block; font-size: 20px; font-weight: 560; letter-spacing: -.02em; line-height: 1.2; }
+    .comments-band { padding: 38px 0; }
+    .comment-pill { border-radius: 12px; }
+    .insight-card:hover { transform: translateY(-4px); }
+    .shift-card, .platform-card, .tier-panel { border-radius: var(--radius); }
+    .shift-card.after { background: linear-gradient(145deg, #d8b889, #b88850); }
+    .shift-arrow { width: 82px; height: 82px; border-color: rgba(197,154,98,.38); color: var(--gold); }
+    .creator-card { border-radius: 14px; }
+    .creator-card small, .platform-card.primary .platform-icon, .territory .num { color: #e5c697; }
+    .mix-bar { border-radius: var(--radius); }
+    .territory { padding-block: 30px; }
+    .phone { border-radius: 38px; }
+    .phone-screen { border-radius: 28px; }
+    .flow-step { border-radius: 12px; }
+    .reach-card .big { font-weight: 650; }
+    .total-reach { border-radius: var(--radius); }
+    .phase-card { background: rgba(255,255,255,.62); }
+    .tier-tab { border-radius: 8px; }
+    .tier-tab.active { color: white; border-color: var(--gold); background: var(--gold); }
+    .tier-price { color: var(--navy); }
+    .recommendation { border: 1px solid rgba(197,154,98,.36); border-radius: var(--radius); }
+    .recommendation .stamp { border-color: var(--gold); color: #9c6d35; }
+    .capability { border-radius: 12px; }
+    .capability small { color: #e5c697; }
+    .finale {
+      background:
+        radial-gradient(circle at 50% -20%, rgba(197,154,98,.25), transparent 42%),
+        var(--navy);
+    }
+
+    .finale h2 { font-size: clamp(62px, 9vw, 130px); font-weight: 570; }
+    .finale h2 em { color: #e0bf91; }
+
+    @media (max-width: 980px) {
+      .at-glance { grid-template-columns: repeat(2, 1fr); }
+      .glance-item:nth-child(2) { border-right: 0; }
+      .glance-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+    }
+
+    @media (max-width: 700px) {
+      .nav { width: calc(100% - 20px); }
+      .brand-logo { width: 130px; height: 38px; }
+      .brand-text { display: none; }
+      .hero h1 { font-size: clamp(62px, 22vw, 104px); }
+      .proposal-meta { gap: 8px; }
+      .proposal-meta span + span::before { display: none; }
+      .moment-truths { grid-template-columns: 1fr; }
+      .at-glance { grid-template-columns: 1fr; }
+      .glance-item { min-height: 118px; border-right: 0; border-bottom: 1px solid var(--line); }
+      .glance-item:last-child { border-bottom: 0; }
+      .section { padding: 92px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <nav class="nav" aria-label="Proposal navigation">
+    <a class="brand-lockup" href="#top" aria-label="Back to top">
+      <img class="brand-logo" src="assets/discovery-health-logo-transparent.png" alt="Discovery Health Medical Scheme">
+      <span class="brand-text">Member<br>Moments</span>
+    </a>
+    <div class="nav-links">
+      <a href="#insight">Insight</a>
+      <a href="#strategy">Strategy</a>
+      <a href="#territories">Creative</a>
+      <a href="#investment">Investment</a>
+      <a href="#measurement">Reporting</a>
+      <a href="#partner">Why Tru Blaq</a>
+    </div>
+    <a class="nav-cta" href="#next">Explore the opportunity <span>↗</span></a>
+  </nav>
+
+  <main>
+    <header class="hero" id="top">
+      <div class="hero-orbit" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="eyebrow cyan">2026 Content Creator Strategy</div>
+        <h1>Member <span>Moments</span></h1>
+        <div class="hero-bottom">
+          <div>
+            <p class="hero-statement">A living archive of recognisable South African life, built to turn <strong>human truth into cultural participation.</strong></p>
+            <div class="proposal-meta">
+              <span>Confidential strategic proposal</span>
+              <span>10 June 2026</span>
+            </div>
+          </div>
+          <div class="hero-meta">
+            <p>Prepared for</p>
+            <strong>Discovery Health Medical Scheme</strong>
+            <p style="margin-top:20px">Prepared by</p>
+            <strong>Tru Blaq Influencer Marketing Agency</strong>
+            <p style="margin-top:20px">Strategic territory</p>
+            <strong>Recognition Over Perfection</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section intro" id="summary">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-number">01 / Executive summary</div>
+          </div>
+          <div>
+            <h2>Moments from members that reflect real life.</h2>
+            <p class="lead">Member Moments embody real pressures and the emotional relief that comes from being a Discovery Health Medical Scheme member.</p>
+          </div>
+        </div>
+
+        <div class="manifesto reveal">
+          <article class="manifesto-main">
+            <blockquote>“That’s so me” moments. Recognition is what makes people <em>stop, feel seen and join in.</em></blockquote>
+            <div class="manifesto-foot">
+              <p>Our proposal is to look beyond a testimonial campaign. It should become a living archive of recognisable South African life.</p>
+              <div class="section-number" style="color:var(--cyan)">The strategic opportunity</div>
+            </div>
+          </article>
+          <div class="manifesto-side">
+            <article class="mini-card dark">
+              <div class="index">OUR INFLUENCER SELECTION WILL STEER AWAY FROM OVERLY POLISHED CREATORS</div>
+              <h3>Human moments. Messy moments. Funny moments.</h3>
+            </article>
+            <article class="mini-card lime">
+              <div class="index">THE ENGAGEMENT ENGINE</div>
+              <h3>Recognition, not the influencers themselves.</h3>
+              <p>The campaign wins when people see their own homes, families and behaviours reflected back at them.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="moment-truths reveal" aria-label="What a Member Moment embodies">
+          <article class="moment-truth">
+            <small>Real pressure</small>
+            <strong>The anxious, funny, human seconds around healthcare decisions.</strong>
+          </article>
+          <article class="moment-truth">
+            <small>Shared behaviour</small>
+            <strong>The family chats, advice, voice notes and opinions around every health moment.</strong>
+          </article>
+          <article class="moment-truth">
+            <small>Emotional relief</small>
+            <strong>The moment someone feels covered, guided, reassured or less alone.</strong>
+          </article>
+          <article class="moment-truth">
+            <small>Cultural participation</small>
+            <strong>The kind of story people tag, share and answer with: “this is us.”</strong>
+          </article>
+        </div>
+
+        <div class="at-glance reveal" aria-label="Proposal at a glance">
+          <div class="glance-item">
+            <small>Strategic platform</small>
+            <strong>Member Moments</strong>
+          </div>
+          <div class="glance-item">
+            <small>Core audience response</small>
+            <strong>Recognition + participation</strong>
+          </div>
+          <div class="glance-item">
+            <small>Potential reach</small>
+            <strong>1.2M-8M+</strong>
+          </div>
+          <div class="glance-item">
+            <small>Recommended investment</small>
+            <strong>R350K–R700K</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="comments-band" aria-label="Audience reactions">
+      <div class="marquee">
+        <div class="marquee-group">
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">TM</span><div class="comment-user"><strong>Thando M.</strong><span>@thando_m</span></div><span class="comment-time">2m</span></div><p class="comment-copy">This is literally my mother. Every single appointment becomes a family meeting.</p><div class="comment-actions"><span>♥ 248</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">KS</span><div class="comment-user"><strong>Kea S.</strong><span>@keasays</span></div><span class="comment-time">5m</span></div><p class="comment-copy">South Africans are all the same. Why do we all have this exact family member?</p><div class="comment-actions"><span>♥ 391</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">LB</span><div class="comment-user"><strong>Lebo B.</strong><span>@lebob</span></div><span class="comment-time">8m</span></div><p class="comment-copy">Why is this so accurate? The voice notes start before anyone even knows what happened.</p><div class="comment-actions"><span>♥ 176</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">NN</span><div class="comment-user"><strong>Nandi N.</strong><span>@nandin</span></div><span class="comment-time">12m</span></div><p class="comment-copy">This happened in our house last week. Even the prayer emojis are accurate.</p><div class="comment-actions"><span>♥ 204</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">ZA</span><div class="comment-user"><strong>Zama A.</strong><span>@zamaonline</span></div><span class="comment-time">16m</span></div><p class="comment-copy">Not the family WhatsApp group. I feel personally called out by this campaign.</p><div class="comment-actions"><span>♥ 512</span><span>Reply</span><span>Share</span></div></article>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">TM</span><div class="comment-user"><strong>Thando M.</strong><span>@thando_m</span></div><span class="comment-time">2m</span></div><p class="comment-copy">This is literally my mother. Every single appointment becomes a family meeting.</p><div class="comment-actions"><span>♥ 248</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">KS</span><div class="comment-user"><strong>Kea S.</strong><span>@keasays</span></div><span class="comment-time">5m</span></div><p class="comment-copy">South Africans are all the same. Why do we all have this exact family member?</p><div class="comment-actions"><span>♥ 391</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">LB</span><div class="comment-user"><strong>Lebo B.</strong><span>@lebob</span></div><span class="comment-time">8m</span></div><p class="comment-copy">Why is this so accurate? The voice notes start before anyone even knows what happened.</p><div class="comment-actions"><span>♥ 176</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">NN</span><div class="comment-user"><strong>Nandi N.</strong><span>@nandin</span></div><span class="comment-time">12m</span></div><p class="comment-copy">This happened in our house last week. Even the prayer emojis are accurate.</p><div class="comment-actions"><span>♥ 204</span><span>Reply</span><span>Share</span></div></article>
+          <article class="comment-pill"><div class="comment-head"><span class="avatar">ZA</span><div class="comment-user"><strong>Zama A.</strong><span>@zamaonline</span></div><span class="comment-time">16m</span></div><p class="comment-copy">Not the family WhatsApp group. I feel personally called out by this campaign.</p><div class="comment-actions"><span>♥ 512</span><span>Reply</span><span>Share</span></div></article>
+        </div>
+      </div>
+    </aside>
+
+    <section class="section diagnosis" id="insight">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-number">02 / Cultural diagnosis</div></div>
+          <div>
+            <h2>The Insights</h2>
+          </div>
+        </div>
+
+        <div class="insight-grid">
+          <article class="insight-card reveal">
+            <span class="label">Human insight</span>
+            <div>
+              <h3>Healthcare is rarely experienced individually.</h3>
+              <p>It is experienced collectively: as caregiving, coordination, pressure, support and survival planning.</p>
+            </div>
+          </article>
+          <article class="insight-card reveal">
+            <span class="label">Cultural insight</span>
+            <div>
+              <h3>South Africans process stress through humour, storytelling and shared language.</h3>
+              <p>The category has completely underutilised recognisable South African behaviour.</p>
+            </div>
+          </article>
+          <article class="insight-card reveal">
+            <span class="label">Internet insight</span>
+            <div>
+              <h3>Comment sections are now more culturally important than posts themselves.</h3>
+              <p>People add stories, remix experiences, compare family behaviour and emotionally participate.</p>
+            </div>
+          </article>
+          <article class="insight-card reveal">
+            <span class="label">Why now / 2026</span>
+            <div>
+              <h3>Recognition is the new virality.</h3>
+              <p>The creator economy has shifted from “look at my life” to “this happened to me too.”</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section positioning">
+      <div class="container">
+        <div class="eyebrow cyan reveal">03 / Strategic positioning</div>
+        <h2 class="reveal">Understanding Lived Experience</h2>
+        <p class="lead reveal" style="color:rgba(255,255,255,.64)">That is more emotionally powerful than simply being seen as “the medical aid provider.”</p>
+        <div class="shift reveal">
+          <div class="shift-card">
+            <span class="nowrap">original campaign question</span>
+            <strong>“Why do you love DHMS?”</strong>
+          </div>
+          <div class="shift-arrow">→</div>
+          <div class="shift-card after">
+            <span>Tru Blaq's proposed shift</span>
+            <strong>“What’s your Member Moment?”</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="strategy">
+      <div class="container-wide">
+        <div class="section-head reveal">
+          <div><div class="section-number">04 / Creator strategy</div></div>
+          <div>
+            <h2>Creators will be our cultural translators.</h2>
+            <p class="lead">To give DHMS both strategic clarity and choice, we have organised the shortlist into 4 creator territories: Family Storytellers, Chaotic Adults, Cultural Commentators and Health &amp; Wellness Whisperers. Each territory offers distinct creator options designed to unlock recognition, reflect real member behaviour and start conversations that feel genuinely lived-in.</p>
+          </div>
+        </div>
+
+        <div class="creator-grid">
+          <article class="creator-card reveal" style="--image:url('assets/the-botmas.png')">
+            <small>01 / THE BOTMAS</small>
+            <h3>The Family Storyteller</h3>
+            <p>Warm new parent storytelling, family first humour and the small domestic moments young households instantly recognise.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 56K | IG 48K</span>
+              <span><strong>Audience:</strong> 25 to 40, majority female, new parents and young-family decision makers</span>
+              <a href="https://www.instagram.com/the_botmas/?hl=en" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/regodise.jpg')">
+            <small>02 / REGODISE</small>
+            <h3>The Family Storyteller</h3>
+            <p>High-energy family lifestyle content that turns parenting, household routines and shared family chaos into broadly relatable entertainment.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 461K | IG 329K</span>
+              <span><strong>Audience:</strong> 28 to 45, family-skewed, parents, caregivers and household entertainment audiences</span>
+              <a href="https://www.instagram.com/regodise/" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/gogo-and-mo.png')">
+            <small>03 / GOGO &amp; MO</small>
+            <h3>The Family Storyteller</h3>
+            <p>Newlywed couple chemistry, pregnancy-era storytelling and playful relationship moments as they move into early family life.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 1.4M | IG 367K</span>
+              <span><strong>Audience:</strong> 18 to 34, younger couples, newlyweds and early-parenthood audiences</span>
+              <a href="https://www.instagram.com/gogoandmo?igsh=eGhrNXUydHRnY2kx" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/nick-and-amber.png')">
+            <small>04 / NICK &amp; AMBER</small>
+            <h3>The Family Storyteller</h3>
+            <p>Couple-led family content with broad age appeal, balancing humour, home life and everyday relationship dynamics.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 68K | IG 62K</span>
+              <span><strong>Audience:</strong> 24 to 49, even male and female split, couples, parents and broader family audiences</span>
+              <a href="https://www.instagram.com/nickandamber22/" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/mikateko-ngobeni.png')">
+            <small>05 / MIKATEKO NGOBENI</small>
+            <h3>The Chaotic Adult</h3>
+            <p>Expressive young-adult comedy rooted in lifestyle pressure, responsibility, relationship realities and everyday “adulting” chaos.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 248K | IG 49K</span>
+              <span><strong>Audience:</strong> 18 to 34, majority female, young adults and aspirational lifestyle audiences</span>
+              <a href="https://www.instagram.com/mikangobeni_/?hl=en" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/anja-oerlemans.png')">
+            <small>06 / ANJA OERLEMANS</small>
+            <h3>The Chaotic Adult</h3>
+            <p>Youthful lifestyle storytelling with a Gen Z lens on independence, social identity, relationships and modern pressure.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 10K | IG 40K</span>
+              <span><strong>Audience:</strong> 18 to 30, youthful and gender-balanced, Gen Z lifestyle and culture-led audiences</span>
+              <a href="https://www.instagram.com/anja.oerlemans?igsh=MW56OThwcWdsc2Z4aw==" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/hlomani-ketani.png')">
+            <small>07 / HLOMANI KETANI</small>
+            <h3>The Chaotic Adult</h3>
+            <p>Energetic humour built around everyday observations, social pressure, culture and the absurdity of growing up.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 284K | IG 60K</span>
+              <span><strong>Audience:</strong> 25 to 45, youthful audience, male skew, culture and humour-led audiences</span>
+              <a href="https://www.instagram.com/hlomani.sa?igsh=MWtscWszZXVwcG93eA==" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/kelly-kikx.png')">
+            <small>08 / KELLY KIKX</small>
+            <h3>The Chaotic Adult</h3>
+            <p>Fast moving lifestyle content that turns everyday social moments into highly shareable entertainment.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 1.1M | IG 40K</span>
+              <span><strong>Audience:</strong> 18 to 30, Gen Z skew, majority female, newly engaged and young couple audiences</span>
+              <a href="https://www.instagram.com/teepillay/" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/botlhale-boikanyo.png')">
+            <small>09 / BOTLHALE BOIKANYO</small>
+            <h3>The Cultural Commentator</h3>
+            <p>A polished performer and speaker whose storytelling blends social reflection, aspiration and emotionally intelligent cultural commentary.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 537K | IG 505K</span>
+              <span><strong>Audience:</strong> 18 to 34, 65% female, relatable yet aspirational youth and culture-led audiences</span>
+              <a href="https://www.instagram.com/botlhaleboikanyo?igsh=MXg4emFmOWptZmpyMQ==" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/kay-mahapa.png')">
+            <small>10 / KAY MAHAPA</small>
+            <h3>The Cultural Commentator</h3>
+            <p>Local language, social commentary and everyday conversational humour that feels casual, immediate and culturally familiar.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 450K | IG 102K</span>
+              <span><strong>Audience:</strong> 18 to 34, balanced male and female, youth culture and entertainment audiences</span>
+              <a href="https://www.instagram.com/p/DNP5sX8sPqL/?img_index=3" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/rory-petzer.webp')">
+            <small>11 / RORY PETZER</small>
+            <h3>The Cultural Commentator</h3>
+            <p>Wry, mainstream South African humour that speaks to working adults, family life and everyday frustrations with easy relatability.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 56K | IG 53K</span>
+              <span><strong>Audience:</strong> 25 to 55, mostly male, working adults, parents and mainstream South African humour audiences</span>
+              <a href="https://www.instagram.com/rorymarc/?hl=en" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/homba-mazaleni.png')">
+            <small>12 / HOMBA MAZALENI</small>
+            <h3>The Cultural Commentator</h3>
+            <p>Confident, style-conscious commentary with a sharp social lens, speaking to women navigating culture, identity and everyday life.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 163K | IG 60K</span>
+              <span><strong>Audience:</strong> 25 to 44, female-skewed, culturally engaged women, style-conscious professionals and social commentary audiences</span>
+              <a href="https://www.instagram.com/homba_mazaleni?igsh=MXhqdDQwaWpvcnByMA==" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/kim-naidoo.jpg')">
+            <small>13 / KIM NAIDOO</small>
+            <h3>The Health &amp; Wellness Whisperer</h3>
+            <p>Polished wellness and lifestyle storytelling that can make healthy routines feel practical, aspirational and easy to enter.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 15K | IG 22K</span>
+              <span><strong>Focus:</strong> Wellness lifestyle, movement and everyday balance</span>
+              <span><strong>Audience:</strong> 25 to 40, predominantly female, wellness-curious professionals and lifestyle led decision makers</span>
+              <a href="https://www.instagram.com/kim_naidoo_?igsh=N2lxeGdodXcxdG4y" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/angelique-michelle.jpg')">
+            <small>14 / ANGELIQUE MICHELLE</small>
+            <h3>The Health &amp; Wellness Whisperer</h3>
+            <p>Accessible nutrition, wellness habits and body-conscious lifestyle content with a practical, everyday-health lens.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 61K | IG 349K</span>
+              <span><strong>Focus:</strong> Nutrition, fitness, habit-building and approachable wellness</span>
+              <span><strong>Audience:</strong> 18 to 35, female skewed, health conscious young adults and active lifestyle communities</span>
+              <a href="https://www.instagram.com/the_lean_girl?igsh=N215bGYyOHl3NzBv" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/asad-boomgaard.jpg')">
+            <small>15 / ASAD BOOMGAARD</small>
+            <h3>The Health &amp; Wellness Whisperer</h3>
+            <p>Energetic fitness-led content that can connect discipline, confidence, routine and physical wellbeing to real-life motivation.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 25K | IG 44K</span>
+              <span><strong>Focus:</strong> Fitness, training culture and performance-led wellness</span>
+              <span><strong>Audience:</strong> 21 to 44, evenly balance male to female ratio, active professionals and self improvement audiences</span>
+              <a href="https://www.instagram.com/asado_b?igsh=MWxra2M3bnJ4MGgyOQ==" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+          <article class="creator-card reveal" style="--image:url('assets/gloria-ngcobo.jpg')">
+            <small>16 / GLORIA NGCOBO</small>
+            <h3>The Health &amp; Wellness Whisperer</h3>
+            <p>Positive fitness and lifestyle content with a community-minded tone, ideal for making wellness feel encouraging and achievable.</p>
+            <div class="creator-profile">
+              <span><strong>Following:</strong> TikTok 1.1M | IG 229K</span>
+              <span><strong>Focus:</strong> Fitness motivation, confidence and healthy lifestyle consistency</span>
+              <span><strong>Audience:</strong> 18 to 45, female skewed audience, aspirational wellness seekers and everyday fitness communities</span>
+              <a href="https://www.instagram.com/fitglor?igsh=MTJzNnBxZmhiZ2h3Zg==" target="_blank" rel="noopener">View Instagram profile</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="mix-bar reveal">
+          <div class="mix-part">
+            <strong>70%</strong>
+            <span>Micro creators / 10K-300K / trust + participation</span>
+          </div>
+          <div class="mix-part">
+            <strong>20%</strong>
+            <span>Mid-tier / 300K–500K / amplification</span>
+          </div>
+          <div class="mix-part">
+            <strong>10%</strong>
+            <span>Macro / selective scale</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section platforms">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-number">05 / Content ecosystem</div></div>
+          <div>
+            <h2>Built for comments, shares and participation.</h2>
+            <p class="lead">Every platform has a distinct role, with TikTok acting as the primary engine for cultural recognition.</p>
+          </div>
+        </div>
+        <div class="platform-grid">
+          <article class="platform-card primary reveal">
+            <div class="platform-icon" role="img" aria-label="TikTok logo">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="#25F4EE" d="M15.2 3v11.1a5.1 5.1 0 1 1-4.4-5v3.1a2.1 2.1 0 1 0 1.4 2V3h3Z" transform="translate(-1 1)"/>
+                <path fill="#FE2C55" d="M15.2 3c.3 2.5 1.7 4 4.1 4.4v3a8.1 8.1 0 0 1-4.1-1.5v5.2a5.1 5.1 0 1 1-4.4-5v3.1a2.1 2.1 0 1 0 1.4 2V3h3Z" transform="translate(1 -1)"/>
+                <path fill="currentColor" d="M15.2 3c.3 2.5 1.7 4 4.1 4.4v3a8.1 8.1 0 0 1-4.1-1.5v5.2a5.1 5.1 0 1 1-4.4-5v3.1a2.1 2.1 0 1 0 1.4 2V3h3Z"/>
+              </svg>
+            </div>
+            <h3>TikTok</h3>
+            <p>Primary platform. TikTok consistently creates stronger cultural discovery and participation than Instagram because content can travel beyond an existing follower base, while comments, stitches, remixes and trends invite audiences into the story. Skits, POVs, family reenactments and voice-note storytelling will organically be integrated.</p>
+          </article>
+          <article class="platform-card reveal">
+            <div class="platform-icon" role="img" aria-label="Instagram logo">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4.2"/>
+                <circle cx="17.4" cy="6.7" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+            </div>
+            <h3>Instagram</h3>
+            <p>Reels for emotional amplification. Stories for polls, submissions, anonymous confessions and engagement mining.</p>
+          </article>
+          <article class="platform-card reveal">
+            <div class="platform-icon" role="img" aria-label="YouTube logo">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="5" width="20" height="14" rx="5" fill="currentColor"/>
+                <path d="m10 9 6 3-6 3V9Z" fill="#d8b889"/>
+              </svg>
+            </div>
+            <h3>YouTube</h3>
+            <p>Long-form storytelling can extend Member Moments into richer, more immersive narratives as an optional add-on within the Option 3 pricing structure.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section territories" id="territories">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-number" style="color:var(--cyan)">06 / Campaign territories</div></div>
+          <div>
+            <h2>7 ways into the South African truth.</h2>
+            <p class="lead" style="color:rgba(255,255,255,.6)">A creative system elastic enough for comedy, vulnerability, participation and quiet emotional depth.</p>
+          </div>
+        </div>
+        <div class="territory-list">
+          <article class="territory reveal"><span class="num">01</span><h3>The family group chat emergency</h3><p>Voice notes. Prayer emojis. Fake doctors. Panic escalation. Massive recognition.</p></article>
+          <article class="territory reveal"><span class="num">02</span><h3>The moments we don’t post</h3><p>Quiet, emotionally honest moments after appointments, uncertainty and exhaustion.</p></article>
+          <article class="territory reveal"><span class="num">03</span><h3>The SA home remedy Olympics</h3><p>Recognisable family remedies before anyone finally goes to the doctor.</p></article>
+          <article class="territory reveal"><span class="num">04</span><h3>The adulting healthcare moment</h3><p>Becoming the emergency contact, medical aid explainer and responsible family member.</p></article>
+          <article class="territory reveal"><span class="num">05</span><h3>The men who refuse checkups</h3><p>A high tagging, high conversation territory with immediate household truth.</p></article>
+          <article class="territory reveal"><span class="num">06</span><h3>The side hustle burnout era</h3><p>Healthcare reframed through hustle culture, stress, exhaustion and survival mode.</p></article>
+          <article class="territory reveal"><span class="num">07</span><h3>The small moments that felt big</h3><p>Not trauma. Relief. The quiet emotional heart of the campaign.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mashup">
+      <div class="container">
+        <div class="phone-flow">
+          <div class="phone reveal" aria-label="Illustration of Member Moments audience conversation">
+            <div class="phone-screen">
+              <div class="chat-date">Member Moments / Today</div>
+              <div class="bubble">My mother still thinks hot water fixes everything.</div>
+              <div class="bubble me">Please submit this as an official Member Moment 😭</div>
+              <div class="bubble">
+                <div class="voice"><span class="play">▶</span><span class="wave"></span><small>0:27</small></div>
+              </div>
+              <div class="bubble">Wait, because my whole family does this too.</div>
+              <div class="bubble me">Creator recreation incoming...</div>
+            </div>
+          </div>
+          <div>
+            <div class="eyebrow blue reveal">07 / “MoM Mashup” evolution</div>
+            <h2 class="reveal">The audience becomes the content engine.</h2>
+            <p class="lead reveal" style="color:rgba(6,24,43,.68)">DHMS mines comments, audience stories, stitched responses, voice notes and confessions. Those truths become the next wave of culture.</p>
+            <div class="flow-steps">
+              <article class="flow-step reveal"><strong>1</strong><div><h4>Listen</h4><p>Mine comments, confessions, polls and audience stories.</p></div></article>
+              <article class="flow-step reveal"><strong>2</strong><div><h4>Remix</h4><p>Turn recognisable moments into reactions, recreations and animations.</p></div></article>
+              <article class="flow-step reveal"><strong>3</strong><div><h4>Return</h4><p>Publish mashups, compilations and creator chains back into culture.</p></div></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-number">09 / Rollout</div></div>
+          <div>
+            <h2>From seeding to participation</h2>
+            <p class="lead">A 6 week launch architecture that starts with familiar behaviour and ends with a platform the community can claim.</p>
+          </div>
+        </div>
+        <div class="timeline-track">
+          <article class="phase reveal"><div class="phase-card"><span class="week">Week 1–2</span><h3>Seed culture</h3><p>Launch recognisable moments, humour territories and conversational storytelling. Goal: trigger recognition.</p></div></article>
+          <article class="phase reveal"><div class="phase-card"><span class="week">Week 2–4</span><h3>Amplification</h3><p>Release the second creator post as a natural extension of the first Member Moment. It can deepen the story, answer a comment from launch or show the “what happened next” moment. Goal: reinforce recognition.</p></div></article>
+          <article class="phase reveal"><div class="phase-card"><span class="week">Week 4–6</span><h3>Community participation</h3><p>Mine comments, story replies and audience submissions. Use Stories for polls, prompts, confessions and “tell us yours” mechanics that turn viewers into contributors. Goal: participation.</p></div></article>
+          <article class="phase reveal"><div class="phase-card"><span class="week">Week 6+</span><h3>Member Moments Mashup Series</h3><p>A standalone podcast video series that uses Member Moments as a conversation starter for bigger discussions around health, family, lifestyle and the value of being covered. The format could move between intimate interviews, creator hosted panels, member stories and expert led education, giving DHMS multiple storytelling moments beyond the campaign. The goal would be to build a repeatable content property.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section investment" id="investment">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-number" style="color:var(--cyan)">10 / Investment tiers</div></div>
+          <div>
+            <h2>Choose the depth of the cultural conversation.</h2>
+            <p class="lead" style="color:rgba(255,255,255,.6)">A tiered ecosystem balances relevance, engagement quality, storytelling depth and scalable reach.</p>
+          </div>
+        </div>
+
+        <div class="tier-tabs reveal" role="tablist" aria-label="Investment options">
+          <button class="tier-tab active" role="tab" aria-selected="true" data-tier="tier-1">Option 1 / Standard</button>
+          <button class="tier-tab" role="tab" aria-selected="false" data-tier="tier-2">Option 2 / Amplification</button>
+          <button class="tier-tab" role="tab" aria-selected="false" data-tier="tier-3">Option 3 / Premium</button>
+        </div>
+
+        <div class="tier-panels reveal">
+          <article class="tier-panel active" id="tier-1">
+            <div class="tier-price"><small>Option 01 / Standard Package</small><strong>R350K<span>Campaign investment<br><em>Includes Agency Fee &amp; Excludes VAT</em></span></strong></div>
+            <div class="tier-details">
+              <h3>Seed the Member Moments.</h3>
+              <div class="tier-stats three"><div class="tier-stat"><small>Creator mix</small><strong>1-2 Macro<br>+ 3-5 Micros</strong></div><div class="tier-stat"><small>Deliverables</small><strong>2-3 Posts Per Creator</strong></div><div class="tier-stat"><small>Estimated reach</small><strong>1.2M–2.5M+</strong></div></div>
+              <div class="tier-columns">
+                <div><h4>Best for</h4><ul><li>Testing audience resonance</li><li>Establishing campaign tone</li><li>Gathering initial insights</li><li>Engagement efficiency</li></ul></div>
+                <div><h4>Recommended output</h4><ul><li>TikTok focus</li><li>Instagram Reels</li><li>Conversational Stories</li><li>Polls + prompts</li></ul></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="tier-panel" id="tier-2">
+            <div class="tier-price"><small>Option 02 / Amplification Package</small><strong>R500K<span>Campaign investment<br><em>Includes Agency Fee &amp; Excludes VAT</em></span></strong></div>
+            <div class="tier-details">
+              <h3>Move from visibility to conversation.</h3>
+              <div class="tier-stats three"><div class="tier-stat"><small>Creator mix</small><strong>2-3 Macros<br>+ 4-6 Micros</strong></div><div class="tier-stat"><small>Deliverables</small><strong>2-3 Posts Per Creator</strong></div><div class="tier-stat"><small>Estimated reach</small><strong>2.5M–4.5M+</strong></div></div>
+              <div class="tier-columns">
+                <div><h4>Best for</h4><ul><li>Broader awareness</li><li>UGC participation</li><li>Platform saturation</li><li>Stronger remix potential</li></ul></div>
+                <div><h4>Recommended output</h4><ul><li>TikTok focus + POVs</li><li>Group chat recreations</li><li>Mashup compilations</li><li>Instagram story links</li><li>Creative editing</li></ul></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="tier-panel" id="tier-3">
+            <div class="tier-price"><small>Option 03 / Premium Package</small><strong>R700K<span>Campaign investment<br><em>Includes Agency Fee &amp; Excludes VAT</em></span></strong></div>
+            <div class="tier-details">
+              <h3>Build an end-to-end campaign.</h3>
+              <div class="tier-stats three"><div class="tier-stat"><small>Creator mix</small><strong>4-6 Macros + 4-6 Micros</strong></div><div class="tier-stat"><small>Deliverables</small><strong>3-4 Posts Per Creator</strong></div><div class="tier-stat"><small>Estimated reach</small><strong>5M–8M+</strong></div></div>
+              <div class="tier-columns">
+                <div><h4>Best for</h4><ul><li>Increased awareness</li><li>PR amplification</li><li>Cross platform virality</li><li>Long term platform building</li></ul></div>
+                <div><h4>Recommended output</h4><ul><li>Long-Form Member Moments</li><li>Youtube layer</li><li>Podcast integration</li><li>Instagram &amp; TikTok audience mashups</li><li>Editorial + earned media</li></ul></div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section kpis" id="measurement">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-number">11 / Reporting + KPIs</div></div>
+          <div>
+            <h2>KPI driven reporting</h2>
+            <p class="lead">Tru Blaq will provide a comprehensive campaign report that connects exposure, meaningful participation, cost efficiency and audience perception to clear learnings and recommendations.</p>
+          </div>
+        </div>
+
+        <div class="measurement-grid">
+          <article class="measurement-card reveal">
+            <small>01 / Campaign impact</small>
+            <h3>Impressions + reach</h3>
+            <p>Tracks campaign visibility and awareness. It is not the primary success measure, but shows whether Member Moments reached enough people to build recognition and momentum.</p>
+          </article>
+          <article class="measurement-card primary reveal">
+            <small>02 / Primary focus</small>
+            <h3>Meaningful engagement</h3>
+            <p>Likes will be tracked, but priority will be given to comments, shares, saves, tags, stitches and replies. This shows whether the content is prompting real recognition and conversation.</p>
+            <div class="engagement-list" aria-label="Priority engagement signals"><span>Comments</span><span>Shares</span><span>Saves</span><span>Tags</span><span>Stitches</span></div>
+          </article>
+          <article class="measurement-card accent reveal">
+            <small>03 / Value for money</small>
+            <h3>Cost per engagement</h3>
+            <p>Shows the cost of each meaningful interaction. We will compare creators, platforms and content territories to see where the budget worked hardest.</p>
+          </article>
+          <article class="measurement-card reveal">
+            <small>04 / Perception shift</small>
+            <h3>Sentiment + scoring</h3>
+            <p>Tracks whether conversation is positive, neutral or negative, and what themes are driving it. This helps show if Member Moments is shifting perception in a more human direction.</p>
+          </article>
+        </div>
+
+        <aside class="report-deliverable reveal">
+          <div>
+            <div class="section-number">Final deliverable</div>
+            <h3>Data translated into direction.</h3>
+          </div>
+          <p>Reporting will be supported by Klear by Meltwater, giving DHMS a credible view of creator performance, audience quality, campaign delivery and content impact. The final report will translate the data into clear learnings, creator insights and practical recommendations for what to retain, refine and scale next.</p>
+        </aside>
+
+      </div>
+    </section>
+
+    <section class="section agency" id="partner">
+      <div class="container">
+        <div class="agency-intro">
+          <div class="agency-logo-wrap reveal">
+            <img class="agency-logo" src="assets/tru-blaq-logo.png" alt="Tru Blaq">
+          </div>
+          <div class="reveal">
+            <div class="eyebrow cyan">12 / Why Tru Blaq</div>
+            <h2>We are Discovery Experts.</h2>
+            <p class="lead">5 years of embedded brand understanding. Tru Blaq understands the Discovery rewards based culture, the member journey and the commercial balance between acquisition, retention and long term trust.</p>
+          </div>
+        </div>
+
+        <div class="agency-advantage reveal">
+          <div>
+            <div class="section-number">The Tru Blaq advantage</div>
+            <h3>Context compounds.</h3>
+          </div>
+          <p>We understand how Discovery motivates behaviour, rewards positive choices and turns membership into an active relationship. That gives Tru Blaq the ability to cast the right creators through an established network, negotiate smarter within tight budgets and navigate sensitive online perceptions. The result is sharper work and less time spent learning what the brand already knows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="finale" id="next">
+      <div class="finale-inner reveal">
+        <div class="eyebrow" style="justify-content:center;color:var(--cyan)">Final strategic thought</div>
+        <h2><span>Let us bring</span><span class="beige">DHMS Member Moments</span><span>To life.</span></h2>
+        <p>Built to be remembered and spark conversation.</p>
+        <div class="finale-actions">
+          <a class="button button-primary" href="mailto:?subject=DHMS%20Member%20Moments%202026">Approve strategic direction <span>↗</span></a>
+          <a class="button button-ghost" href="#investment">Review investment tiers</a>
+        </div>
+        <div class="footer-note">All strategic concepts, creative IP and proposal materials remain proprietary to Tru Blaq and may not be used, reproduced or shared without written consent.</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const progress = document.querySelector('.progress');
+    const updateProgress = () => {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = `${scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0}%`;
+    };
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px' });
+
+    document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+
+    const tabs = document.querySelectorAll('.tier-tab');
+    const panels = document.querySelectorAll('.tier-panel');
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        tabs.forEach((item) => {
+          item.classList.remove('active');
+          item.setAttribute('aria-selected', 'false');
+        });
+        panels.forEach((panel) => panel.classList.remove('active'));
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+        document.getElementById(tab.dataset.tier).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
