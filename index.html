@@ -1052,11 +1052,15 @@
       color: white;
       text-align: center;
       background: var(--blue);
-      overflow: hidden;
+      overflow: clip;
     }
 
-    .finale-inner { position: relative; z-index: 1; max-width: 1100px; }
-    .finale h2 { font-size: clamp(68px, 11vw, 158px); line-height: .82; }
+    .finale-inner { position: relative; z-index: 1; width: min(100%, 1180px); }
+    .finale h2 {
+      font-size: clamp(32px, 7.6vw, 108px);
+      letter-spacing: -.055em;
+      line-height: .98;
+    }
     .finale h2 em { display: block; color: var(--lime); font-style: normal; }
     .finale h2 span { display: block; }
     .finale h2 .beige {
@@ -1375,7 +1379,7 @@
         var(--navy);
     }
 
-    .finale h2 { font-size: clamp(62px, 9vw, 130px); font-weight: 570; }
+    .finale h2 { font-size: clamp(32px, 7.6vw, 108px); font-weight: 570; }
     .finale h2 em { color: #e0bf91; }
 
     @media (max-width: 980px) {
@@ -1396,6 +1400,14 @@
       .glance-item { min-height: 118px; border-right: 0; border-bottom: 1px solid var(--line); }
       .glance-item:last-child { border-bottom: 0; }
       .section { padding: 92px 0; }
+      .finale { padding: 84px 18px; }
+      .finale h2 {
+        font-size: clamp(29px, 8.2vw, 56px);
+        letter-spacing: -.04em;
+        line-height: 1.06;
+      }
+      .finale p { margin: 28px auto; font-size: 17px; }
+      .footer-note { margin-top: 48px; font-size: 9px; line-height: 1.45; }
     }
   </style>
 </head>
